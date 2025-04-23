@@ -113,12 +113,36 @@ src/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - Images from Unsplash
 - Icons from Lucide React
 - UI inspiration from modern design patterns
+
+## 🎨 Website Interface
+
+![Screenshot 2025-04-19 212906](https://github.com/user-attachments/assets/4a75936a-349c-47cf-a6c8-bb429b85260e)
+
+
+![Screenshot 2025-04-19 212919](https://github.com/user-attachments/assets/4ad8d110-1f2d-449d-b40a-b479e57365b1)
+
+
+![Screenshot 2025-04-18 185203](https://github.com/user-attachments/assets/e31dfd55-7f2b-4798-bf6b-59ea86f8e11c)
+
+
+![Screenshot 2025-04-23 124550](https://github.com/user-attachments/assets/645a3735-71cd-4f51-bff3-6ea2560f0238)
+
+
+![Screenshot 2025-04-18 185402](https://github.com/user-attachments/assets/ff230bd4-586f-47f7-8b03-94ed8bf93233)
+
+
+![Screenshot 2025-04-18 185417](https://github.com/user-attachments/assets/82d15b56-568d-4149-a7e3-eb54e43b6082)
+
+
+![Screenshot 2025-04-18 185432](https://github.com/user-attachments/assets/e2fb633f-cc72-45c1-8777-9026cb0f7e50)
+
+
+
+
+
+
