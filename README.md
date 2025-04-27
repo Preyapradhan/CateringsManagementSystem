@@ -1,123 +1,155 @@
 # Indian Flavour - Catering Management System
 
-A modern, full-stack catering management system built with React, TypeScript, and Supabase. This application helps manage catering services with features for both customers and administrators.
+A modern, full-stack web application for managing catering services, built with **React**, **TypeScript**, and **Supabase**. This system provides a seamless experience for both customers and administrators in managing catering orders and services.
 
 ![Indian Flavour Banner](https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&q=80&w=800)
 
-## 🚀 Features
+## 🌟 Features
 
-### For Customers
-- 🍽️ Browse extensive menu of authentic Indian dishes
-- 🛒 Easy cart management and ordering
-- 📦 Real-time order tracking
-- 🚚 Delivery status updates
-- 👤 User profile management
-- 📱 Responsive design for all devices
+### Customer Features
+- **User Authentication**
+  - Secure login and registration
+  - Profile management
+  - Password recovery
 
-### For Administrators
-- 📊 Interactive dashboard with real-time metrics
-- 🍳 Menu management system
-- 📋 Order processing and tracking
-- 🚗 Delivery management
-- 👥 Customer management
-- 📈 Revenue tracking
+- **Menu & Ordering**
+  - Browse through available catering products
+  - Add items to cart
+  - Real-time cart management
+  - Place and track orders
 
-## 🛠️ Tech Stack
+- **Order Management**
+  - View order history
+  - Track order status
+  - Cancel or modify orders
+  - View order details
 
-- **Frontend:**
-  - React 18
-  - TypeScript
-  - Tailwind CSS
-  - Zustand (State Management)
-  - Lucide React (Icons)
-  - React Router DOM
+### Admin Features
+- **Dashboard**
+  - Overview of daily operations
+  - Key performance metrics
+  - Recent order notifications
 
-- **Backend:**
-  - Supabase (Database & Authentication)
-  - Row Level Security (RLS)
+- **Product Management**
+  - Add/Edit/Delete products
+  - Manage product categories
+  - Update product availability
+  - Set pricing and descriptions
+
+- **Order Processing**
+  - View all customer orders
+  - Update order status
+  - Process payments
+  - Generate order reports
+
+## 🛠️ Technology Stack
+
+### Frontend
+- **React 18** - UI library
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Styling and responsive design
+- **Zustand** - State management
+- **React Router DOM** - Client-side routing
+- **Lucide React** - Icon library
+
+### Backend
+- **Supabase**
+  - PostgreSQL database
+  - Authentication
   - Real-time subscriptions
+  - Row Level Security (RLS)
 
-## 🏗️ Architecture
-
-- Modern component-based architecture
-- Secure authentication flow
-- Real-time data synchronization
-- Responsive design patterns
-- Type-safe database interactions
+### Development Tools
+- **Vite** - Build tool and development server
+- **ESLint** - Code linting
+- **TypeScript** - Type checking
+- **Git** - Version control
 
 ## 🚀 Getting Started
 
-1. **Clone the repository**
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+- Supabase account
+
+### Installation
+
+1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/indian-flavour.git
-cd indian-flavour
+git clone https://github.com/Preyapradhan/CateringsManagementSystem.git
+cd catering-management-system
 ```
 
-2. **Install dependencies**
+2. Install dependencies
 ```bash
 npm install
 ```
 
-3. **Set up environment variables**
+3. Set up environment variables
 Create a `.env` file in the root directory:
 ```env
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
-4. **Start the development server**
+4. Start the development server
 ```bash
 npm run dev
 ```
 
-## 📱 Application Structure
+## 📁 Project Structure
 
 ```
 src/
 ├── components/     # Reusable UI components
+│   └── Navbar.tsx
 ├── pages/         # Page components
-│   └── admin/     # Admin dashboard pages
+│   ├── admin/     # Admin dashboard pages
+│   │   ├── Dashboard.tsx
+│   │   ├── Orders.tsx
+│   │   └── Products.tsx
+│   ├── Cart.tsx
+│   ├── Home.tsx
+│   ├── Login.tsx
+│   ├── Orders.tsx
+│   ├── Profile.tsx
+│   ├── Products.tsx
+│   └── Register.tsx
 ├── store/         # Zustand store configurations
 ├── lib/           # Utility functions and configurations
 └── types/         # TypeScript type definitions
 ```
 
-## 🔐 Security
+## 🔒 Security Features
 
 - Secure authentication using Supabase Auth
 - Row Level Security (RLS) policies
 - Role-based access control
-- Secure API endpoints
+- Protected API endpoints
+- Secure session management
 
-## 🎨 Design Features
+## 🎨 UI/UX Features
 
-- Clean, minimalistic UI
-- Responsive design
+- Responsive design for all devices
+- Clean and intuitive interface
+- Real-time updates
+- Loading states and error handling
+- Form validation
 - Interactive components
-- Smooth animations
-- Consistent color scheme
-- Accessibility-focused
 
-## 📦 Database Schema
+## 📊 Database Schema
 
-- **profiles:** User information and roles
-- **products:** Menu items and details
-- **orders:** Customer orders and status
-- **order_items:** Individual items in orders
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
+### Tables
+- **users** - User profiles and authentication
+- **products** - Catering menu items
+- **orders** - Customer orders
+- **order_items** - Individual items in orders
+  
 ## 🙏 Acknowledgments
 
-- Images from Unsplash
-- Icons from Lucide React
-- UI inspiration from modern design patterns
+- Supabase team for the amazing backend platform
+- React team for the frontend library
+- All contributors and supporters of the project
 
 ## 🎨 Website Interface
 
